@@ -1,0 +1,19 @@
+{
+  "name": "recruit-app-server",
+  "version": "1.0.0",
+  "description": "招聘App服务端",
+  "main": "server.js",
+  "scripts": {
+    
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ccfine/recruit-app-server.git"
+  },
+  "author": "ccfine",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ccfine/recruit-app-server/issues"
+  },
+  "homepage": "https://github.com/ccfine/recruit-app-server#readme"
+}
