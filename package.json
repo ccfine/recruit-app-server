@@ -2,9 +2,9 @@
   "name": "recruit-app-server",
   "version": "1.0.0",
   "description": "招聘App服务端",
-  "main": "server.js",
+  "main": "./server/server.js",
   "scripts": {
-    
+    "server": "nodemon server/server.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,13 @@
   "bugs": {
     "url": "https://github.com/ccfine/recruit-app-server/issues"
   },
-  "homepage": "https://github.com/ccfine/recruit-app-server#readme"
+  "homepage": "https://github.com/ccfine/recruit-app-server#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.16.4",
+    "mongoose": "^5.4.1",
+    "socket.io": "^2.2.0",
+    "utility": "^1.15.0"
+  }
 }
