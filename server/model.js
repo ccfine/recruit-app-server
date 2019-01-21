@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
 
-const MongoDB_URl = "mongodb://localhost:27017/recruit";
+const MongoDB_URl = "mongodb://127.0.0.1:27017/recruit";
 mongoose.connect(MongoDB_URl);
 
 const collections = {
